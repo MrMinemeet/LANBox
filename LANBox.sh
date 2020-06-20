@@ -50,3 +50,8 @@ fi
 
 # Setup AccessPoint
 $LANBOX_PATH/Setup/setup_ap.sh $LANBOX_CONFIG
+
+
+# Removes WWW folder
+rm /var/www
+ln -s $WWW_FOLDER /var/www
