@@ -34,3 +34,24 @@ Any USB flash drive that has decent speed and a decent capazity will do it. The 
 
 5. **5V USB Powerbank *(optional)***
 For mobile use you can connect the Raspberry Pi to a powerbank, so it can run without plugging it into the wall. I'd recommend something like this [Anker PowerCore](https://amzn.to/3eliWEu).
+
+## How to Install
+### Preparation
+1. Download [Raspberry Pi OS](https://www.raspberrypi.org/downloads/) from the official Website. The easiest way is to use the Raspberry Pi Imager for flashing the OS onto the Micro-SD card.
+
+2. Flash the OS using the Raspberry Pi Imager or [balenaEtcher](https://www.balena.io/etcher/)
+
+3. Create a `ssh` file on the `boot` partition. This enables ssh access.
+
+### Install LANBox
+1. `cd ~`
+2. `mkdir ./Project`
+3. `git clone https://github.com/MrMinemeet/LANBox.git`
+4. `cd Project/LANBox`
+5. `./LANBox.sh`
+
+## Todo:
+* Filesharing
+* Torrent tracker
+* Connected devices counter in webinterface
+* **(Optional)** IRC
