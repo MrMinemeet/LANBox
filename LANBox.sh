@@ -42,7 +42,7 @@ fi
 LANBOX_CONFIG=/home/pi/Project/LANBox/conf/lanbox.conf
 if [ ! -f $LANBOX_CONFIG ] ; then
   echo "Config-File LANBOX_CONFIG not found..."
-  exit 255
+  exit 1
 fi
 
 #Load Config
@@ -52,6 +52,6 @@ fi
 $LANBOX_PATH/Setup/setup_ap.sh $LANBOX_CONFIG
 
 
-# Removes WWW folder
-rm /var/www
-ln -s $WWW_FOLDER /var/www
+# Setup website
+$LANBOX_PATH/Setup/setup_www.sh $LANBOX_CONFIG
+

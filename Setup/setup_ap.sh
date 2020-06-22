@@ -60,7 +60,7 @@ fi
 echo "Bringing up wifi interface $INTERFACE"
 ifconfig $INTERFACE up
 if [ $? -ne 0 ]; then
-    echo "...failed";
+    echo "failed...";
     exit 1
 fi
 
@@ -69,7 +69,7 @@ echo "Setting up $INTERFACE"
 # e.g.: ifconfig wlan0 192.168.2.1 netmask 255.255.255.0
 ifconfig $INTERFACE $IP netmask $NETMASK
 if [ $? -ne 0 ]; then
-    echo "...failed";
+    echo "failed...";
     exit 1
 fi
 
