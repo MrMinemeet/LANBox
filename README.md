@@ -53,5 +53,6 @@ For mobile use you can connect the Raspberry Pi to a powerbank, so it can run wi
 ## Todo:
 * Filesharing
 * Torrent tracker
+* Bridge Mode
 * Connected devices counter in webinterface
 * **(Optional)** IRC
