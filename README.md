@@ -1,7 +1,7 @@
 # LANBox
 
 ## Maintainers / Collaborators
-* [Alexander Voglsperger (MrMinemeet)](alexander.voglsperger@protonmail.com)
+* [Alexander Voglsperger (MrMinemeet)](https://wtf-my-code.works/)
 
 The LANBox creates a local wireless network to anonymously chat and share files.
 
