@@ -22,7 +22,8 @@ You'll Raspberry Pi to run the LANBox on. This is a small PC, which can run off 
   * [Raspberry Pi 4 (4GB-Model)](https://amzn.to/2YkDaIE)
 
 2. **Micro-SD Card**
-Stores the operating system called [Raspberry Pi OS](https://www.raspberrypi.org/downloads/)
+Stores the operating system called [Raspberry Pi OS](https://www.raspberrypi.org/downloads/).
+Basically any Micro-SD card with a size of at least 8GB will do it.
 
 3. **5V USB power supply**
   * For the Pi 3b, 3b+ you'll need a power supply with a Micro-USB plug. Anyting with 2A will do it here.
@@ -55,4 +56,5 @@ For mobile use you can connect the Raspberry Pi to a powerbank, so it can run wi
 * Torrent tracker
 * Bridge Mode
 * Connected devices counter in webinterface
+* Automount usb drive
 * **(Optional)** IRC
