@@ -85,7 +85,7 @@
     <div id="page-wrap">
     
         <h2>LANbox live Chat</h2>
-        <h3>Anonym offline chat/file collaboration</h3>
+        <h3>Offline chat</h3>
         
         <p id="name-area"></p>
         

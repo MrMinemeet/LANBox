@@ -26,7 +26,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Check if packages are missing
-DEPENDENT_PACKAGES="hostapd apache2 dnsmasq python3 php net-tools"
+DEPENDENT_PACKAGES="hostapd apache2 dnsmasq php net-tools python3"
 
 if [ "$DEPENDENT_PACKAGES" != "" ]; then
   echo -n "Some dependencies may be missing. Would you like to install them? (Y/n): "
@@ -39,7 +39,7 @@ if [ "$DEPENDENT_PACKAGES" != "" ]; then
   fi
 fi
 
-LANBOX_CONFIG=/home/pi/Project/LANBox/conf/lanbox.conf
+LANBOX_CONFIG=/home/pi/LANBox/conf/lanbox.conf
 if [ ! -f $LANBOX_CONFIG ] ; then
   echo "Config-File LANBOX_CONFIG not found..."
   exit 1

@@ -84,4 +84,8 @@ systemctl enable dnsmasq
 systemctl unmask hostapd
 systemctl start hostapd
 systemctl enable hostapd
+
+# Restart every service
+systemctl restart dhcpcd
+systemctl restart dnsmasq
 systemctl restart hostapd
