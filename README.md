@@ -15,12 +15,14 @@ This project does the following things:
 
 ## Stuff you need
 * **Raspberry Pi**
-You'll Raspberry Pi to run the LANBox on. This is a small PC, which can run off a powerbank. Here are the ones I'd recommend and the ones I think the project will most likly run on:
+You'll Raspberry Pi to run the LANBox on. This is a small PC, which can run off a powerbank. Here are the ones that the project get's tested on:
   * [Raspberry Pi 3b](https://amzn.to/30XMNyV)
   * [Raspberry Pi 3b+](https://amzn.to/2V3Zog5)
   * [Raspberry Pi 4 (2GB-Model)](https://amzn.to/2V3Zog5)
   * [Raspberry Pi 4 (4GB-Model)](https://amzn.to/2YkDaIE)
 
+But it might also run on other linux devices like the *Raspberry Pi Zero (W)* or other single-board-computers.
+ 
 2. **Micro-SD Card**
 Stores the operating system called [Raspberry Pi OS](https://www.raspberrypi.org/downloads/).
 Basically any Micro-SD card with a size of at least 8GB will do it.
@@ -53,8 +55,8 @@ For mobile use you can connect the Raspberry Pi to a powerbank, so it can run wi
 
 ## Todo:
 * Filesharing
-* Torrent tracker
 * Bridge Mode
 * Connected devices counter in webinterface
 * Automount usb drive
+* **(Optional)** Torrent tracker
 * **(Optional)** IRC
