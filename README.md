@@ -12,7 +12,7 @@ This project does the following things:
 * Setup ip-address rent (dnsmasq)
 * Setup an apache2 web-server
 * Setup chat on `192.168.2.1/Chat`
-
+---
 ## Stuff you need
 * **Raspberry Pi**
 You'll Raspberry Pi to run the LANBox on. This is a small PC, which can run off a powerbank. Here are the ones that the project get's tested on:
@@ -40,19 +40,19 @@ For mobile use you can connect the Raspberry Pi to a powerbank, so it can run wi
 
 ## How to Install
 ### Preparation
-1. Download [Raspberry Pi OS](https://www.raspberrypi.org/downloads/) from the official Website. The easiest way is to use the Raspberry Pi Imager for flashing the OS onto the Micro-SD card.
+1. Flash the *Raspberry Pi OS* onto the micro-sd card using the [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/).
 
-2. Flash the OS using the Raspberry Pi Imager or [balenaEtcher](https://www.balena.io/etcher/)
+2. Create a `ssh` file on the `boot` partition. This enables ssh access.
 
-3. Create a `ssh` file on the `boot` partition. This enables ssh access.
+3. Use a terminal or console window to SSH into the raspberry using `ssh pi@raspberrypi.local` or `pi@[IP]` where you have to replace `[IP]` with the IP address of the Raspberry pi.
 
 ### Install LANBox
 1. `cd ~`
-2. `mkdir ./Project`
 3. `git clone https://github.com/MrMinemeet/LANBox.git`
-4. `cd Project/LANBox`
+4. `cd ./LANBox`
 5. `./LANBox.sh`
 
+---
 ## Todo:
 * Filesharing
 * Bridge Mode
