@@ -10,12 +10,10 @@ if [ -z $WWW_FOLDER ]; then
     exit 1
 fi
 
-if [ ! -f $LANBOX_CONFIG ] ; then
-    # remove default www folder
-    echo "Deleting original website folder"
-    unlink $ORIG_WWW_FOLDER/www
-    rm -r $ORIG_WWW_FOLDER
-fi
+# remove default www folder
+echo "Deleting original website folder"
+# unlink $ORIG_WWW_FOLDER/www/
+rm -rf $ORIG_WWW_FOLDER/www/
 
 # add softlink to www folder of LANBox
 echo "Linking LANBox website"
