@@ -58,5 +58,11 @@ For mobile use you can connect the Raspberry Pi to a powerbank, so it can run wi
 * Bridge Mode
 * Connected devices counter in webinterface
 * Automount usb drive
-* **(Optional)** Torrent tracker
-* **(Optional)** IRC
+* **(Optional)** Tracker (for bigger files that don't fit on the LANBox storage)
+* **(Optional)** Mesh functionallity
+
+
+## Disclaimer
+This project is designed to chat, share files and other digital media on a local base without the need of an external hosting service.
+This makes it possible to distribute information in emergency situations, censorship or other scenarios.
+If this projects or any structure if it is used in any other way that might or might not me legal I am not be responsible for it.
